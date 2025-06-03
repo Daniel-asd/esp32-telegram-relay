@@ -55,6 +55,27 @@
 
 Все изменения сохраняются в SPIFFS (файл `data.json`). После правки расписания или смещения ESP32 автоматически синхронизирует время и применит новые параметры.
 
+---
+
+## 🎯 Цели использования
+
+Этот проект предназначен для **удалённого управления реле** через Telegram-бота и веб-панель. Подходит для различных задач автоматизации:
+
+- ✅ Удалённое включение/выключение света, вентиляции, отопления и других устройств
+- ✅ Автоматизация по времени: включать что-либо ежедневно в заданное время
+- ✅ Создание системы "присутствия", когда свет включается по расписанию, пока вы в отъезде
+- ✅ Включение/отключение оборудования в теплицах, аквариумах и т.д.
+
+### 🌿 Главная цель: Автоматический полив цветов
+
+Проект изначально создавался для **автоматического полива комнатных растений**:
+- ESP32 включает насос (через реле) на 30 секунд каждое утро в заданное время
+- Время и расписание задаются через веб-интерфейс
+- Также возможен ручной полив по команде в Telegram
+
+Возможна доработка с датчиком влажности почвы — если земля сухая, полив активируется автоматически и отправляется уведомление в Telegram.
+
+
 ===================================================================================================
 
 ````markdown
@@ -113,3 +134,24 @@
 ---
 
 All settings (users, schedule, UTC offset) are saved in SPIFFS (`data.json`). ESP32 will automatically re-sync NTP and apply changes after any update.
+
+---
+
+## 🎯 Usage Goals
+
+This project is designed for **remote relay control** via a Telegram bot and web interface. It can be used for various home automation tasks:
+
+- ✅ Remotely turn lights, ventilation, heating, and other devices on/off  
+- ✅ Automate tasks on a daily schedule (e.g., turn something on every day at a specific time)  
+- ✅ Create a "presence simulation" system — lights turn on/off while you're away  
+- ✅ Control equipment in greenhouses, aquariums, etc.
+
+### 🌿 Main Goal: Automatic Plant Watering
+
+The project was originally built for **automated indoor plant watering**:
+- The ESP32 activates a water pump (via relay) every morning for 30 seconds at a set time  
+- The time and schedule are configurable via the web interface  
+- Manual watering is also possible via a Telegram command
+
+Optional upgrade: connect a soil moisture sensor — if the soil is too dry, watering starts automatically and a notification is sent to Telegram.
+
