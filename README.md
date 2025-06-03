@@ -101,8 +101,10 @@
 5. In Telegram, send `/start` to your bot to confirm it’s working.
 6. Visit `http://<ESP32_IP>/` in a browser, log in with `admin`/`admin`, and configure schedule and UTC offset.
 
-![image](https://github.com/user-attachments/assets/e01b0bbc-7787-4b89-be89-4a01642cde8d)
-![image](https://github.com/user-attachments/assets/f3c07043-8146-415d-b873-72a4ee76f2b8)
+![image](https://github.com/user-attachments/assets/d2b97f75-16c2-484c-8a50-e810e334f333)
+![image](https://github.com/user-attachments/assets/2d55ca4e-7d9a-449c-8c89-c745b5bb764a)
+
+
 
 ---
 
