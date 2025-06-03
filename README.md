@@ -33,7 +33,7 @@
    cd esp32-telegram-relay
 ````
 
-2. Открыть `sketch_jun03a.ino` в Arduino IDE.
+2. Открыть `esp32_relay_bot.ino` в Arduino IDE.
 3. В начале файла указать:
 
    ```cpp
@@ -88,7 +88,7 @@
    cd esp32-telegram-relay
 ````
 
-2. Open `sketch_jun03a.ino` in Arduino IDE.
+2. Open `esp32-telegram-relay_eng.ino` in Arduino IDE.
 3. At the top of the file, set your credentials:
 
    ```cpp
