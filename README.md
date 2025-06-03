@@ -46,6 +46,8 @@
 5. В Telegram отправить `/start` боту, убедиться в работе.
 6. Перейти в браузере по `http://<IP_ESP32>/`, ввести `admin`/`admin` и настроить расписание и смещение.
 
+![image](https://github.com/user-attachments/assets/9cdfc1df-4913-4fda-aa45-9744a246218e)
+
 ![image](https://github.com/user-attachments/assets/e01b0bbc-7787-4b89-be89-4a01642cde8d)
 ![image](https://github.com/user-attachments/assets/f3c07043-8146-415d-b873-72a4ee76f2b8)
 
@@ -100,6 +102,8 @@
 4. Upload to ESP32. Note the IP address in Serial Monitor.
 5. In Telegram, send `/start` to your bot to confirm it’s working.
 6. Visit `http://<ESP32_IP>/` in a browser, log in with `admin`/`admin`, and configure schedule and UTC offset.
+
+![image](https://github.com/user-attachments/assets/b8480b64-37f8-43d7-8266-f3364cb63e2f)
 
 ![image](https://github.com/user-attachments/assets/d2b97f75-16c2-484c-8a50-e810e334f333)
 ![image](https://github.com/user-attachments/assets/2d55ca4e-7d9a-449c-8c89-c745b5bb764a)
